@@ -13,7 +13,7 @@ import fileinput
 import os
 
 qname = "asg-name"
-fpath = "/root/asg-nagioxi/"
+fpath = "/root/asg-nagiosxi/"
 needs_reaload = 0
 
 ec2 = boto.ec2.connect_to_region("us-east-1")
